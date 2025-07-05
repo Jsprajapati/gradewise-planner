@@ -94,7 +94,7 @@ Before you begin, ensure you have the following installed:
     ```bash
     pip install -r requirements.txt
     ```
-    * **Note:** You will need to create a `requirements.txt` file in your project's root directory containing all the Python libraries your app uses (e.g., `streamlit`, `pandas`, `numpy`, `scikit-learn`, `spacy`, `nltk`, `openai`, etc.). You can generate it using `pip freeze > requirements.txt` after installing your dependencies.
+    * TODO: create requirements.txt file.
 
 ### Running the Application
 
@@ -169,8 +169,8 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 If you have any questions, feedback, or need assistance, feel free to reach out:
 
-* **Your Name/Alias:** Jsprajapati
-* **Email:** prajapatijaymin38@gmail.com
+* **Author:** Jaymin Prajapati
+* **Email:** [prajapatijaymin38@gmail.com](mailto:prajapatijaymin38@gmail.com)
 ---
 
 ## Acknowledgements

@@ -1,0 +1,92 @@
+# Python
+# --------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python/
+build/
+develop-eggs/
+dist/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.venv/
+venv/
+env/
+*.env
+.env*
+.ipynb_checkpoints/
+profile_results.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.nox/
+.tox/
+
+# OS and Editor Specific
+# --------------------
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+*.log
+Thumbs.db
+Desktop.ini
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# Streamlit specific
+# --------------------
+.streamlit/
+# If you are saving uploaded files temporarily, these should ideally be in a temp dir
+# that's outside the git repo or explicitly cleaned up.
+# However, if you have a specific folder for temporary uploads *within* your project, ignore it:
+# uploads/
+# temp_files/
+# temp_data/
+
+# Data and Results
+# -----------------
+# Ignore any dynamically generated data files, processed outputs, or sensitive data
+data/processed/
+data/raw/ # If you download raw data into this folder and don't want to commit it
+results/
+outputs/
+*.csv
+*.json
+*.xlsx
+*.parquet
+*.pkl
+*.bin
+*.model
+*.weights
+*.h5
+*.npy
+*.txt # Be careful with this - only if you generate text files you don't want to track
+# Example: specific log files or analysis reports you don't want in Git
+# my_app_logs.log
+# analysis_report.pdf
+
+# Environment variables and sensitive files
+# ------------------------------------------
+.env # Common for storing API keys, secrets etc.
+*.env # Catch all .env files
+*.ini # For config files that might contain sensitive info
+*.cfg # For config files that might contain sensitive info
+.streamlit/secrets.toml # Streamlit's way to manage secrets locally. VERY IMPORTANT TO IGNORE!
+secrets.toml # In case you put it directly in root (less common)
+
+# Jupyter Notebook related (if you use notebooks for development/testing)
+# --------------------------
+.ipynb_checkpoints
